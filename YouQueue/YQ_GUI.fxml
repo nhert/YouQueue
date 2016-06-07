@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="365.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Branch1.YQController">
+   <children>
+      <ListView fx:id="ListURL" layoutX="14.0" layoutY="53.0" prefHeight="237.0" prefWidth="476.0" />
+      <Button fx:id="ButtonDownload" layoutX="499.0" layoutY="53.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="127.0" text="Download ALL" />
+      <Button fx:id="ButtonClearAll" layoutX="499.0" layoutY="183.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="127.0" text="Clear All" />
+      <Button fx:id="ButtonClearSel" layoutX="499.0" layoutY="215.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="127.0" text="Clear Selected" />
+      <Button fx:id="ButtonSetFolder" layoutX="499.0" layoutY="258.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="127.0" text="Set Output Location" />
+      <TextField fx:id="TextFieldURL" layoutX="14.0" layoutY="297.0" prefHeight="25.0" prefWidth="476.0" />
+      <ChoiceBox fx:id="ChoiceBoxBrowser" layoutX="499.0" layoutY="124.0" prefHeight="25.0" prefWidth="127.0" />
+      <Label layoutX="510.0" layoutY="107.0" text="Select Your Browser" textFill="#00a1ff" />
+      <Label fx:id="OutputLabel" layoutX="14.0" layoutY="334.0" prefHeight="17.0" prefWidth="476.0" text="Label" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="32.0" prefWidth="186.0" text="YouQueue" textFill="#ff0101">
+         <font>
+            <Font name="Calibri" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="30.0" prefHeight="17.0" prefWidth="105.0" text="Download All URLs" textFill="RED" />
+   </children>
+</Pane>
